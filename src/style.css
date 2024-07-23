@@ -9,19 +9,83 @@ PALLETE: Warm and Inviting
 */
 
 body {
-  background-color: #ffcba4;
+  background-color: #fff5e6;
   color: #5a4b3c;
+  font-family: Helvetica, Arial, sans-serif;
 }
 #container {
   background-color: #fff5e6;
+  margin: 120px auto;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+header {
+  margin-bottom: 30px;
+}
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 16px;
+}
+form {
+  padding: 30px;
+  margin: 8px;
+  background-color: #ffcba4;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.prompt {
+  padding: 10px;
+  border: 1px, solid #5a4b3c;
+  border-radius: 10px;
+  width: 100%;
+  color: #5a4b3c;
+  margin: 4px 2px;
+}
+.submit-button {
+  border-radius: 10px;
+  background-color: #ff6347;
+  border: none;
+  color: #fff5e6;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+.submit-button:hover {
+  background-color: #ff4500; /* Slightly darker burnt orange */
+}
+.recepy {
+  color: #6b8e23;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: justify;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border-left: 3px solid #ff6347;
 }
 a {
   color: #ff6347;
 }
+a:hover {
+  color: #ff4500;
+}
 footer {
   text-align: center;
   opacity: 0.7;
-  font-size: 18px;
+  font-size: 14px;
+  margin-top: 30px;
 }
 footer a {
   text-decoration: none;
