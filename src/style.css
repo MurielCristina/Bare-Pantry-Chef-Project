@@ -75,6 +75,9 @@ form {
   font-size: 14px;
   border-left: 3px solid #ff6347;
 }
+h5 {
+  font-size: 12px;
+}
 a {
   color: #ff6347;
 }
