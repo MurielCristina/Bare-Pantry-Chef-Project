@@ -1,0 +1,28 @@
+/* 
+PALLETE: Warm and Inviting
+    Background color: Soft Apricot (#FFCBA4)
+    Container color: Cream (#FFF5E6)
+    Text Color: Dark Brown (#5A4B3C)
+    Links color: Burnt Orange (#FF6347)
+
+    Secondary Color: Olive Green (#6B8E23)
+*/
+
+body {
+  background-color: #ffcba4;
+  color: #5a4b3c;
+}
+#container {
+  background-color: #fff5e6;
+}
+a {
+  color: #ff6347;
+}
+footer {
+  text-align: center;
+  opacity: 0.7;
+  font-size: 18px;
+}
+footer a {
+  text-decoration: none;
+}
