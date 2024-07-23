@@ -8,13 +8,12 @@ function popUpBasicIngredients() {
 let clickHere = document.querySelector(".ingridients-list");
 clickHere.addEventListener("click", popUpBasicIngredients);
 
-//
+//Submit button funcionality
 function generateRecepy(event) {
   event.preventDefault();
   alert("🪄 Making magic with what yo have! ");
 
-  let recepyElement = document.querySelector("#recepy");
-  recepyElement.innerHTML = `Ginger-Garlic Ground Meat Stir-Fry with Rice and Veggies</strong
+  let fakeRecepy = `Ginger-Garlic Ground Meat Stir-Fry with Rice and Veggies</strong
           >
           <br /><br />
           Ingredients: <br />
@@ -58,6 +57,13 @@ function generateRecepy(event) {
           Serve: Fluff the cooked rice with a fork and divide it between two
           plates. Spoon the ginger-garlic ground meat stir-fry over the rice.
           Serve hot and enjoy your meal!`;
+
+  new Typewriter("#recepy", {
+    strings: fakeRecepy,
+    autoStart: true,
+    cursor: "",
+    delay: 10,
+  });
 }
 
 let ingredientFormElement = document.querySelector("#ingredient-form");
