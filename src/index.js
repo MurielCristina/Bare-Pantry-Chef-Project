@@ -31,7 +31,7 @@ function generateRecepy(event) {
 
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-  console.log("🪄 Making magic with what yo have!");
+  console.log(`🪄 Making magic with what yo have: ${ingredientsInput}`);
   console.log(`Context: ${context}`);
   console.log(`Prompt: ${prompt}`);
 
