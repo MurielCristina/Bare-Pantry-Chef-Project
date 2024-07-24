@@ -30,14 +30,10 @@ function generateRecepy(event) {
   recepyElement.classList.remove("hidden");
   recepyElement.innerHTML = `<div class = "loading">🪄 Making magic with what yo have!<div class = "loading">`;
 
-  console.log(`Context: ${context}`);
-  console.log(`Prompt: ${prompt}`);
-
   axios.get(apiUrl).then(displayRecepy);
 }
 
 function displayRecepy(response) {
-  console.log("Recepy generated");
   magicRecepy = response.data.answer;
   new Typewriter("#recepy", {
     strings: magicRecepy,
