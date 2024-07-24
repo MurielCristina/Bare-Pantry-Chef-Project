@@ -96,3 +96,20 @@ footer {
 footer a {
   text-decoration: none;
 }
+/*Output of the AI:*/
+p strong u {
+  text-align: center;
+  color: #6b8e23;
+  font-size: 20px;
+}
+p strong {
+  text-decoration: underline;
+  text-align: left;
+  color: #6b8e23;
+  font-size: 16px;
+}
+h6 {
+  color: #ff6347;
+  text-align: left;
+  font-size: 10px;
+}
