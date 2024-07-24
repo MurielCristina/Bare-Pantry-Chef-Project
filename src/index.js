@@ -28,7 +28,7 @@ function generateRecepy(event) {
 
   let recepyElement = document.querySelector("#recepy");
   recepyElement.classList.remove("hidden");
-  recepyElement.innerHTML = `<div class = "loading">🪄 Making magic with what yo have!<div class = "loading">`;
+  recepyElement.innerHTML = `<div class = "loading">🪄 Making magic with what you have!<div class = "loading">`;
 
   axios.get(apiUrl).then(displayRecepy);
 }
